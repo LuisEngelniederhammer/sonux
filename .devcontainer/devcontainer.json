@@ -1,0 +1,16 @@
+{
+    "name": "sonux devcontainer",
+    "remoteUser": "root",
+    "runArgs": [
+        "--net=host"
+    ],
+	"dockerFile": "Dockerfile",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"bmewburn.vscode-intelephense-client",
+				"xdebug.php-debug"
+			]
+		}
+	}
+}
